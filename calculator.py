@@ -16,7 +16,7 @@ def calculator(number1, number2, operator):
 		return number1 * number2
 	if operator == '/':
 		if number2 == 0:
-			return False
+			return "negative"
 		return number1 / number2
 	if operator == '**':
 		return number1 ** number2
