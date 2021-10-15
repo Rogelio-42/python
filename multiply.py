@@ -4,5 +4,5 @@ def multiply_list(list):
 		if isinstance(i, int):
 			result = result*i
 		else:
-			return "Invalid input"
+			return False
 	return result
