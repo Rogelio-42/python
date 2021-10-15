@@ -4,4 +4,4 @@ def calculate_time(func):
 	current  = time.time()
 	func()
 	end = time.time()
-	return end - current
+	print("Total time " + str(end - current))
