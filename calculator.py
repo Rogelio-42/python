@@ -21,7 +21,7 @@ def calculator(number1, number2, operator):
 	if operator == '//':
 		if number2 == 0:
 			return False
-		return int(number1) / int(number2)
+		return int(int(number1) / int(number2))
 	if operator == '**':
 		return number1 ** number2
 	else:
